@@ -13,17 +13,9 @@ import scala.swing.Swing._
 import java.awt.Color
 import scala.swing.event._
 
-////////////////// NOTE TO STUDENTS //////////////////////////
-// For the purposes of our course, it's not necessary
-// that you understand or even look at the code in this file.
-//////////////////////////////////////////////////////////////
-
 
 /** The singleton object `PeeveliApp` serves as an entry point for the Peeveli game. You can
-  * run it to start up the user interface.
-  *
-  * '''NOTE TO STUDENTS: In this course, you don't need to understand how this object works
-  * or can be used, apart from the fact that you can use this file to start the program.''' */
+  * run it to start up the user interface. */
 object PeeveliApp extends SimpleSwingApplication with O1AppDefaults {
 
   def top: MainFrame = new MainFrame {
